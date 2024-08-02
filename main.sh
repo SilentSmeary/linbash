@@ -1,4 +1,8 @@
-#!/bin/bash
+sudo rm -rf temp-downloads
+sudo mkdir temp-downloads
+cd temp-downloads
+
+pwd
 
 # Function to check if nala is installed
 check_nala() {
@@ -26,7 +30,7 @@ main_menu() {
 
 # Function to display the software install menu
 software_install_menu() {
-    echo "_______________________________________"
+    echo "______________________________________"
     echo "[1] Zed Code Editor"
     echo "[2] Visual Studio Code"
     echo "[3] Github Desktop"
